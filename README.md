@@ -1,49 +1,55 @@
-##Electronic Medical Records System
-Project Overview
+# Electronic Medical Records System
+# Author
+Samuel Kamau
+
+# Project Overview
 The Electronic Medical Records System is designed to streamline the management of patient health information within healthcare facilities. It allows for the creation, storage, and retrieval of patient records, including appointments and medical histories. Built with Python and SQLAlchemy, this system utilizes SQLite for lightweight database management, making it ideal for small to medium-sized practices.
 
-Features
-Patient Management: Register new patients and manage existing ones.
-Doctor Management: Maintain a registry of doctors available for appointments.
-Appointment Scheduling: Schedule appointments between patients and doctors.
-Medical Record Keeping: Create and store detailed medical records for each patient.
-Getting Started
-Prerequisites
-Ensure you have Python installed on your machine. The recommended version is Python 3.8 or newer.
+## Installation
 
-Installation
-Clone the repository to your local machine.
+Clone the repository to your local machine..
 
-bash
-Copy code
+```bash
 git clone https://your-repository-url.git
 cd emr-system
-Install the required packages.
 
-bash
-Copy code
+```
+Install the required packages...
+
+```bash
 pip install -r requirements.txt
+```
 Running the Application
 Initialize the database.
 
-bash
-Copy code
+```bash
 python main.py init-db
-To add a new patient, run:
+```
+To add a new patient, run:.
 
-bash
-Copy code
+```bash
 python main.py add-patient "John Doe"
-Usage
-After initializing the database, you can start managing patients, doctors, appointments, and medical records through the command-line interface.
 
-Contributing
-Contributions are welcome! Please read the CONTRIBUTING.md file for guidelines on submitting pull requests.
+```
+## Usage
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+```
+# python cli.py register_patient "Diana Wambui" "1988-12-12" "F" "Nakuru" "0712345681"
 
-Contact
-For inquiries or feedback, please open an issue on GitHub.
+# returns 'geese'
+python cli.py register_doctor "Dr. Peter Ochieng" "Orthopedics" "dr.peter@hospital.com" "0723456791"
 
-Feel free to adjust any part of this README to better fit the specifics of your project. If you have any questions or need further assistance, don't hesitate to ask!
+# returns 'phenomenon'
+foobar.singularize('phenomena')
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+This project is licensed under the MIT License. 
+[MIT](https://choosealicense.com/licenses/mit/)
