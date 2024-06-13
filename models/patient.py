@@ -5,6 +5,8 @@ from .base import Base
 
 class Patient(Base):
     __tablename__ = 'patients'
+
+        # Columns definition
     patient_id = Column(Integer, primary_key=True)
     name = Column(String, nullable=False)
     date_of_birth = Column(Date, nullable=False)
@@ -12,5 +14,7 @@ class Patient(Base):
     address = Column(String, nullable=False)
     phone_number = Column(String, nullable=False)
 
+
+    # Columns definition
     appointments = relationship('Appointment', back_populates='patient')
     medical_records = relationship('MedicalRecord', back_populates='patient')
