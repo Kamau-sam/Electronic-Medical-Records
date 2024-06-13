@@ -9,3 +9,16 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 def init_db():
     Base.metadata.create_all(bind=engine)
+
+
+
+
+
+#UPDATE doctors
+#SET specialty = 'Dermatology', phone_number = '0723456794'
+#WHERE doctor_id = 1;
+
+
+#SELECT * FROM patients WHERE name LIKE '%Mwangi%';
+
+#
