@@ -32,9 +32,6 @@ To get started with the Electronic Medical Records System, follow these steps:
    - **Register a New Patient**
      bash python main.py add-patient "John Doe"
 
-- **Register a New Doctor**
-  bash python main.py register_doctor "Dr. Peter Ochieng" "Orthopedics" "dr.peter@hospital.com" "0723456791"
-
 ## Usage
 
 The system offers a variety of commands to manage patient and doctor records effectively. Here are a few examples:
@@ -43,7 +40,7 @@ The system offers a variety of commands to manage patient and doctor records eff
   bash python cli.py register_patient "Diana Wambui" "1988-12-12" "F" "Nakuru" "0712345681"
 
 - Registering a new doctor:
-  bash python cli.py register_doctor "Dr. Peter Ochieng" "Orthopedics" "dr.peter@hospital.com" "0723456791"
+  bash python cli.py register_doctor "Dr. Peter Ochieng" "Orthopedics" "Molo" "0723456791"
 
 ## Contributing
 
