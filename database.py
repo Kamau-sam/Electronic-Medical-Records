@@ -21,4 +21,10 @@ def init_db():
 
 #SELECT * FROM patients WHERE name LIKE '%Mwangi%';
 
-#
+#DELETE FROM patients WHERE name = 'Brian Kimtai';
+
+#SELECT * FROM patients WHERE gender = 'M' AND address = 'Nairobi';
+
+#SELECT * FROM doctors WHERE specialty = 'Cardiology';
+
+#SELECT * FROM medical_records WHERE diagnosis = 'Hypertension';
